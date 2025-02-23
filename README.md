@@ -67,25 +67,7 @@ LengClientCheck 是一个用于 Minecraft 服务器的插件，旨在检测玩�
 - `/lcc dupeip <玩家>`：查询玩家 IP 下的小号。
 - `/lcc help`：显示帮助信息。
 
-## 权限
-
-- `lcc.staff`：允许玩家使用 `/lcc` 相关命令。
-
-## 配置文件示例
-
-```yaml
-# 违禁Mod列表
-banned-mods:
-  - "cheatmod"
-  - "hackmod"
-  - "xray"
-
-# 管理员列表（使用玩家名称）
-staff:
-  - "AdminPlayer1"
-  - "AdminPlayer2"
-
-# 许可证
+## 许可证
 LengClientCheck 使用 GNU General Public License v2.0 (GPL-2.0) 许可证。以下是原因：
 
 ProtocolLib 依赖：
@@ -105,3 +87,23 @@ GPL-2.0 是一种强 copyleft 许可证，要求项目必须开源。
 如果你分发本插件（无论是二进制文件还是源代码），你必须同时提供完整的源代码，并且源代码也必须以 GPL-2.0 发布。
 
 完整的许可证文本请查看 LICENSE 文件。
+
+
+## 权限
+
+- `lcc.staff`：允许玩家使用 `/lcc` 相关命令。
+
+## 配置文件示例
+
+```yaml
+# 违禁Mod列表
+banned-mods:
+  - "cheatmod"
+  - "hackmod"
+  - "xray"
+
+# 管理员列表（使用玩家名称）
+staff:
+  - "AdminPlayer1"
+  - "AdminPlayer2"
+```
