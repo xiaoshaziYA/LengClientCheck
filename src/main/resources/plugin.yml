@@ -1,0 +1,17 @@
+name: LengClientCheck
+version: 1.0
+main: org.leng.LengClientCheck
+api-version: 1.21
+author: Leng
+description: A plugin to check client mods and manage staff.
+
+commands:
+  lcc:
+    description: Main command for LengClientCheck.
+    usage: /lcc [add|remove|list|dupeip|help]
+    permission: lcc.staff
+
+permissions:
+  lcc.staff:
+    description: Allows access to LengClientCheck commands.
+    default: op
