@@ -85,7 +85,7 @@ staff:
   - "AdminPlayer1"
   - "AdminPlayer2"
 
-许可证
+# 许可证
 LengClientCheck 使用 GNU General Public License v2.0 (GPL-2.0) 许可证。以下是原因：
 
 ProtocolLib 依赖：
